@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.23, for Win64 (x86_64)
 --
--- Host: localhost    Database: sales_soln
+-- Host: localhost    Database: sales
 -- ------------------------------------------------------
 -- Server version	8.0.23
 
@@ -19,9 +19,9 @@
 -- Table structure for table `item`
 --
 
-DROP DATABASE IF EXISTS sales_soln;
-CREATE DATABASE sales_soln;
-USE sales_soln;
+DROP DATABASE IF EXISTS sales;
+CREATE DATABASE sales;
+USE sales;
 
 DROP TABLE IF EXISTS `item`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
